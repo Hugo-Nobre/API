@@ -14,21 +14,25 @@
 
 		<!-- menu -->		
 
-		<div class="pos-f-t">
-		  <div class="collapse" id="navbarToggleExternalContent">
-		    <div class="bg-dark p-4">
-		      <h5 class="text-white h4">Design Multimédia</h5>		      
-		      <a href="../index.html" title="" class="btn btn-danger">INICIO</a>
-		      <a href="precos.html" title="Preços das Férias" class="btn btn-danger">PREÇOS</a>
-		      <a href="praia.html" title="Preços das Férias" class="btn btn-danger">PRAIA</a>
-		    </div>
-		  </div>
-		  <nav class="navbar navbar-dark bg-dark">
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		  </nav>
-		</div>
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Design Multimédia</h5>
+      <span class="text-muted">Menu dinâmico</span>
+      <a href="../index.html" title="">Inicio</a>
+      <a href="precos.html" class="btn btn-primary" title="Preços das Férias">Preços</a>
+      <a href="praia.html" title="Preços das Férias" class="btn btn-danger">PRAIA</a>
+      <a href="javascript.html" title="">Java Script</a>
+
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
 
 		<!-- grid -->
 		<div align="center">
@@ -70,6 +74,9 @@
 							<div class="card-body text-secondary">
 							    <h5 class="card-title">Spá</h5>
 							    <p class="card-text">Pode usufruir de todas as ofertas de spá existentes.</p>
+				    <p class="card-text"> Férias de Autocarro: <b> <span id="CA"></span>€</b></p>
+				    <p class="card-text"> Férias de Carro: <b> <span id="CC"></span>€</b></p>
+				    <p class="card-text"> Férias de Avião: <b> <span id="CV"></span>€</b></p>
 							</div>
 						</div>				
 				    </div>
@@ -80,6 +87,9 @@
 							<div class="card-body text-secondary">
 							    <h5 class="card-title">Refeições</h5>
 							    <p class="card-text">Todo o tipo de refeições e comida à disposição</p>
+				    <p class="card-text"> Férias de Autocarro: <b> <span id="PA"></span>€</b></p>
+				    <p class="card-text"> Férias de Carro: <b> <span id="PC"></span>€</b></p>
+				    <p class="card-text"> Férias de Avião: <b> <span id="PV"></span>€</b></p>
 							</div>
 						</div>	
 				    </div>
@@ -90,6 +100,9 @@
 							<div class="card-body text-secondary">
 							    <h5 class="card-title">Descontos</h5>
 							    <p class="card-text">Passeios guiados e visitas incluidas nestas condições</p>
+				    <p class="card-text"> Férias de Autocarro: <b> <span id="IA"></span>€</b></p>
+				    <p class="card-text"> Férias de Carro: <b> <span id="IC"></span>€</b></p>
+				    <p class="card-text"> Férias de Avião: <b> <span id="IV"></span>€</b></p>
 							</div>
 						</div>	
 				    </div>
@@ -140,8 +153,10 @@
 		</footer>	
 
 		<!-- scripts de bootstrap e jquery-->
+		
 		<script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
 		<script src="../bootstrap/js/popper.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		
 	</body>
 </html>
